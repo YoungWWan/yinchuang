@@ -28,8 +28,7 @@
 - **系统要求**：Windows 10 / 11 (x64)
 - **当前版本**：v0.0.3
 
-**[⬇️ 下载 Windows 版 (yinchuang-x64-0.0.3.exe)](https://yinchuang.xyz/yinchuang-x64-0.0.3.exe)**  
-**[GitHub Releases 下载](https://github.com/YoungWWan/yinchuang/releases)**
+**[⬇️ 下载 Windows 版](https://github.com/YoungWWan/yinchuang/releases/latest)**
 
 > macOS 版本敬请期待
 
