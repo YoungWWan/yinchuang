@@ -8,6 +8,8 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: 获取版本号
         id: version
@@ -23,7 +25,6 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: yinchuang-x64-${{ steps.version.outputs.VERSION }}.exe
-          generate_release_notes: true
           body: |
             ## 隐窗 v${{ steps.version.outputs.VERSION }}
 
