@@ -1,94 +1,96 @@
-# 隐窗 - 隐私保护工具
+# Yinchuang - Privacy Protection Tool
 
-> 窗口隐私一瞥即护
+> One glance to protect your window privacy
 
-[![官网](https://img.shields.io/badge/官网-yinchuang.xyz-blue)](https://yinchuang.xyz)
-[![平台](https://img.shields.io/badge/平台-Windows%2010%2F11-green)](https://yinchuang.xyz)
-[![版本](https://img.shields.io/badge/版本-v0.0.3-orange)](https://yinchuang.xyz)
+[中文](README.zh.md)
 
-跨平台桌面应用，自动模糊微信、QQ 等窗口的敏感内容。鼠标悬浮时恢复显示，保护你的隐私不被旁人窥视。
+[![Website](https://img.shields.io/badge/Website-yinchuang.xyz-blue)](https://yinchuang.xyz)
+[![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-green)](https://yinchuang.xyz)
+[![Version](https://img.shields.io/badge/Version-v0.0.3-orange)](https://yinchuang.xyz)
 
----
-
-## ✨ 特性
-
-| 特性 | 描述 |
-|------|------|
-| ⚡ **快速** | 毫秒级响应，OS 级窗口模糊渲染，GPU 加速，几乎无感知延迟 |
-| 👆 **人性化** | 鼠标移到哪，哪就清晰。羽化边缘自然过渡，不突兀 |
-| 🖥️ **原生** | 基于 Tauri + Rust 构建，内存占用低，启动即用 |
-| 🛡️ **可靠** | 系统托盘常驻，可调节模糊强度、显示半径、刷新频率 |
+A cross-platform desktop app that automatically blurs sensitive content in windows like WeChat, QQ, and more. Hover to reveal—protect your privacy from prying eyes.
 
 ---
 
-## 📥 下载
+## ✨ Features
+
+| Feature | Description |
+|---------|-------------|
+| ⚡ **Fast** | Millisecond response, OS-level window blur rendering, GPU accelerated, nearly imperceptible latency |
+| 👆 **Intuitive** | Hover where you need clarity. Feathered edges for smooth transitions |
+| 🖥️ **Native** | Built with Tauri + Rust, low memory footprint, ready to use on launch |
+| 🛡️ **Reliable** | System tray resident, adjustable blur strength, display radius, and refresh rate |
+
+---
+
+## 📥 Download
 
 ### Windows
 
-- **系统要求**：Windows 10 / 11 (x64)
-- **当前版本**：v0.0.3
+- **Requirements**: Windows 10 / 11 (x64)
+- **Current version**: v0.0.3
 
-**[⬇️ 下载 Windows 版](https://github.com/YoungWWan/yinchuang/releases/latest)**
+**[⬇️ Download for Windows](https://github.com/YoungWWan/yinchuang/releases/latest)**
 
-> macOS 版本敬请期待
-
----
-
-## 🚀 快速开始
-
-1. 下载并运行 `yinchuang-x64-0.0.3.exe`
-2. 选择需要保护的窗口（如微信、QQ 等）
-3. 敏感内容将自动模糊，鼠标悬浮即可查看
+> macOS coming soon
 
 ---
 
-## 📋 更新日志
+## 🚀 Quick Start
+
+1. Download and run `yinchuang-x64-0.0.3.exe`
+2. Select the window to protect (e.g., WeChat, QQ)
+3. Sensitive content is blurred automatically; hover to view
+
+---
+
+## 📋 Changelog
 
 ### v0.0.3 (2026-03-10)
 
-**新增**
-- 支持绘制常驻透明矩形
-- 用户反馈功能
+**Added**
+- Support for persistent transparent rectangles
+- User feedback feature
 
-**优化**
-- 修复一些已知 bug
+**Improved**
+- Fixed known bugs
 
 ### v0.0.2 (2026-03-05)
 
-**新增**
-- 设置菜单「检查更新」入口
-- 自动检查更新
-- 「关于」弹窗
-- 头部设置齿轮按钮
+**Added**
+- "Check for updates" in settings menu
+- Automatic update check
+- "About" dialog
+- Settings gear button in header
 
 ### v0.0.1 (2026-03-02)
 
-**新增**
-- 设置持久同步
-- 系统托盘支持
-- 可调节显示半径（40 ~ 300 px）
-- 可调节模糊强度（2 ~ 40 px）
-- 鼠标悬浮挖洞显示
-- OS 级毛玻璃遮罩
+**Added**
+- Persistent settings sync
+- System tray support
+- Adjustable display radius (40 ~ 300 px)
+- Adjustable blur strength (2 ~ 40 px)
+- Hover-to-reveal hole effect
+- OS-level frosted glass overlay
 
 ---
 
 ## 📝 TODO
 
-- [ ] 多语言
-- [ ] 悬浮窗口可定义矩形
-- [ ] 窗口透明
-- [ ] 多窗口模糊
-- [ ] 自动模糊
-- [ ] 支持 macOS
+- [ ] Multi-language support
+- [ ] Definable rectangle for floating window
+- [ ] Window transparency
+- [ ] Multi-window blur
+- [ ] Auto blur
+- [ ] macOS support
 
 ---
 
-## 🔗 链接
+## 🔗 Links
 
-- **官网**：[https://yinchuang.xyz](https://yinchuang.xyz)
-- **技术栈**：基于 Tauri v2 构建
+- **Website**: [https://yinchuang.xyz](https://yinchuang.xyz)
+- **Tech stack**: Built with Tauri v2
 
 ---
 
-*免费下载，即刻使用。不是节省时间，而是让你感觉从未浪费它。*
+*Free to download, ready to use. Not about saving time—it's about feeling like you never wasted it.*
