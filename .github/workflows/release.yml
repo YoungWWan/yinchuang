@@ -1,0 +1,38 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 获取版本号
+        id: version
+        run: echo "VERSION=${GITHUB_REF#refs/tags/v}" >> $GITHUB_OUTPUT
+
+      - name: 下载 Windows 安装包
+        run: |
+          VERSION=${{ steps.version.outputs.VERSION }}
+          wget -O yinchuang-x64-${{ steps.version.outputs.VERSION }}.exe \
+            "https://yinchuang.xyz/yinchuang-x64-${{ steps.version.outputs.VERSION }}.exe"
+
+      - name: 创建 GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: yinchuang-x64-${{ steps.version.outputs.VERSION }}.exe
+          generate_release_notes: true
+          body: |
+            ## 隐窗 v${{ steps.version.outputs.VERSION }}
+
+            隐私保护工具 - 窗口隐私一瞥即护
+
+            ### 下载
+            - **Windows 10/11 (x64)**：点击下方 `yinchuang-x64-${{ steps.version.outputs.VERSION }}.exe` 下载
+
+            ### 官网
+            [yinchuang.xyz](https://yinchuang.xyz)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
