@@ -6,7 +6,7 @@
 
 [![官网](https://img.shields.io/badge/官网-yinchuang.xyz-blue)](https://yinchuang.xyz)
 [![平台](https://img.shields.io/badge/平台-Windows%2010%2F11-green)](https://yinchuang.xyz)
-[![版本](https://img.shields.io/badge/版本-v0.0.3-orange)](https://yinchuang.xyz)
+[![版本](https://img.shields.io/badge/版本-v0.0.4-orange)](https://yinchuang.xyz)
 
 跨平台桌面应用，自动模糊微信、QQ 等窗口的敏感内容。鼠标悬浮时恢复显示，保护你的隐私不被旁人窥视。
 
@@ -19,7 +19,7 @@
 | ⚡ **快速** | 毫秒级响应，OS 级窗口模糊渲染，GPU 加速，几乎无感知延迟 |
 | 👆 **人性化** | 鼠标移到哪，哪就清晰。羽化边缘自然过渡，不突兀 |
 | 🖥️ **原生** | 基于 Tauri + Rust 构建，内存占用低，启动即用 |
-| 🛡️ **可靠** | 系统托盘常驻，可调节模糊强度、显示半径、刷新频率 |
+| 🛡️ **可靠** | 系统托盘常驻，可调节模糊强度、显示半径 |
 
 ---
 
@@ -28,7 +28,7 @@
 ### Windows
 
 - **系统要求**：Windows 10 / 11 (x64)
-- **当前版本**：v0.0.3
+- **当前版本**：v0.0.4
 
 **[⬇️ 下载 Windows 版](https://github.com/YoungWWan/yinchuang/releases/latest)**
 
@@ -38,13 +38,24 @@
 
 ## 🚀 快速开始
 
-1. 下载并运行 `yinchuang-x64-0.0.3.exe`
+1. 下载并运行 `yinchuang-x64-0.0.4.exe`
 2. 选择需要保护的窗口（如微信、QQ 等）
 3. 敏感内容将自动模糊，鼠标悬浮即可查看
 
 ---
 
 ## 📋 更新日志
+
+### v0.0.4 (2026-03-12)
+
+**新增**
+- 多语言功能（中、英）
+- 模糊强度和显示半径快捷键
+- 窗口选择分组
+
+**优化**
+- 窗口选择下拉框样式优化
+- 窗口选择下拉框滑块优化
 
 ### v0.0.3 (2026-03-10)
 
@@ -77,7 +88,6 @@
 
 ## 📝 TODO
 
-- [ ] 多语言
 - [ ] 悬浮窗口可定义矩形
 - [ ] 窗口透明
 - [ ] 多窗口模糊

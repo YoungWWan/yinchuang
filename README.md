@@ -6,7 +6,7 @@
 
 [![Website](https://img.shields.io/badge/Website-yinchuang.xyz-blue)](https://yinchuang.xyz)
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-green)](https://yinchuang.xyz)
-[![Version](https://img.shields.io/badge/Version-v0.0.3-orange)](https://yinchuang.xyz)
+[![Version](https://img.shields.io/badge/Version-v0.0.4-orange)](https://yinchuang.xyz)
 
 A cross-platform desktop app that automatically blurs sensitive content in windows like WeChat, QQ, and more. Hover to reveal—protect your privacy from prying eyes.
 
@@ -19,7 +19,7 @@ A cross-platform desktop app that automatically blurs sensitive content in windo
 | ⚡ **Fast** | Millisecond response, OS-level window blur rendering, GPU accelerated, nearly imperceptible latency |
 | 👆 **Intuitive** | Hover where you need clarity. Feathered edges for smooth transitions |
 | 🖥️ **Native** | Built with Tauri + Rust, low memory footprint, ready to use on launch |
-| 🛡️ **Reliable** | System tray resident, adjustable blur strength, display radius, and refresh rate |
+| 🛡️ **Reliable** | System tray resident, adjustable blur strength, display radius |
 
 ---
 
@@ -28,7 +28,7 @@ A cross-platform desktop app that automatically blurs sensitive content in windo
 ### Windows
 
 - **Requirements**: Windows 10 / 11 (x64)
-- **Current version**: v0.0.3
+- **Current version**: v0.0.4
 
 **[⬇️ Download for Windows](https://github.com/YoungWWan/yinchuang/releases/latest)**
 
@@ -38,13 +38,24 @@ A cross-platform desktop app that automatically blurs sensitive content in windo
 
 ## 🚀 Quick Start
 
-1. Download and run `yinchuang-x64-0.0.3.exe`
+1. Download and run `yinchuang-x64-0.0.4.exe`
 2. Select the window to protect (e.g., WeChat, QQ)
 3. Sensitive content is blurred automatically; hover to view
 
 ---
 
 ## 📋 Changelog
+
+### v0.0.4 (2026-03-12)
+
+**Added**
+- Multi-language support (Chinese, English)
+- Shortcuts for blur intensity and display radius
+- Window selection grouping
+
+**Improved**
+- Window selection dropdown style
+- Window selection dropdown slider
 
 ### v0.0.3 (2026-03-10)
 
@@ -77,7 +88,6 @@ A cross-platform desktop app that automatically blurs sensitive content in windo
 
 ## 📝 TODO
 
-- [ ] Multi-language support
 - [ ] Definable rectangle for floating window
 - [ ] Window transparency
 - [ ] Multi-window blur
