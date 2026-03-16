@@ -6,7 +6,7 @@
 
 [![Website](https://img.shields.io/badge/Website-yinchuang.xyz-blue)](https://yinchuang.xyz)
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-green)](https://yinchuang.xyz)
-[![Version](https://img.shields.io/badge/Version-v0.0.4-orange)](https://yinchuang.xyz)
+[![Version](https://img.shields.io/badge/Version-v0.0.5-orange)](https://yinchuang.xyz)
 
 A cross-platform desktop app that automatically blurs sensitive content in windows like WeChat, QQ, and more. Hover to reveal—protect your privacy from prying eyes.
 
@@ -28,7 +28,7 @@ A cross-platform desktop app that automatically blurs sensitive content in windo
 ### Windows
 
 - **Requirements**: Windows 10 / 11 (x64)
-- **Current version**: v0.0.4
+- **Current version**: v0.0.5
 
 **[⬇️ Download for Windows](https://github.com/YoungWWan/yinchuang/releases/latest)**
 
@@ -38,13 +38,23 @@ A cross-platform desktop app that automatically blurs sensitive content in windo
 
 ## 🚀 Quick Start
 
-1. Download and run `yinchuang-x64-0.0.4.exe`
+1. Download and run `yinchuang-x64-0.0.5.exe`
 2. Select the window to protect (e.g., WeChat, QQ)
 3. Sensitive content is blurred automatically; hover to view
 
 ---
 
 ## 📋 Changelog
+
+### v0.0.5 (2026-03-16)
+
+**Added**
+- Customizable shortcuts
+
+**Improved**
+- Window blur loading speed
+- Gaussian blur logic
+- Fixed known bugs
 
 ### v0.0.4 (2026-03-12)
 

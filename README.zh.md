@@ -6,7 +6,7 @@
 
 [![官网](https://img.shields.io/badge/官网-yinchuang.xyz-blue)](https://yinchuang.xyz)
 [![平台](https://img.shields.io/badge/平台-Windows%2010%2F11-green)](https://yinchuang.xyz)
-[![版本](https://img.shields.io/badge/版本-v0.0.4-orange)](https://yinchuang.xyz)
+[![版本](https://img.shields.io/badge/版本-v0.0.5-orange)](https://yinchuang.xyz)
 
 跨平台桌面应用，自动模糊微信、QQ 等窗口的敏感内容。鼠标悬浮时恢复显示，保护你的隐私不被旁人窥视。
 
@@ -28,7 +28,7 @@
 ### Windows
 
 - **系统要求**：Windows 10 / 11 (x64)
-- **当前版本**：v0.0.4
+- **当前版本**：v0.0.5
 
 **[⬇️ 下载 Windows 版](https://github.com/YoungWWan/yinchuang/releases/latest)**
 
@@ -38,13 +38,23 @@
 
 ## 🚀 快速开始
 
-1. 下载并运行 `yinchuang-x64-0.0.4.exe`
+1. 下载并运行 `yinchuang-x64-0.0.5.exe`
 2. 选择需要保护的窗口（如微信、QQ 等）
 3. 敏感内容将自动模糊，鼠标悬浮即可查看
 
 ---
 
 ## 📋 更新日志
+
+### v0.0.5 (2026-03-16)
+
+**新增**
+- 快捷键自定义
+
+**优化**
+- 窗口模糊加载速度
+- 高斯模糊逻辑
+- 修复已知 bug
 
 ### v0.0.4 (2026-03-12)
 
